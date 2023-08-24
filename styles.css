@@ -1,0 +1,70 @@
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+@media screen and (min-width : 375px) {
+    .content-container{
+        width: 85%;
+        margin-left: 7.5%;
+        margin-top: 10%;
+    }
+}
+@media  screen and (min-width: 1440px) {
+    .content-container{
+        height: 30rem;
+        width: 70%;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        gap: none;
+        margin-left: 15%;
+        margin-top: 10%;
+    }
+}
+.card{
+    padding: 40px 60px 20px 40px;
+
+}
+.card img{
+    width: 25%;
+    margin-bottom: 35px;
+}
+.card h3{
+    font-family: 'Big Shoulders Display', cursive;
+    color: white;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.card p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    color: white;
+    text-align: left;
+    margin-bottom: 65px;
+}
+#sedans{
+    background-color:  hsl(31, 77%, 52%);
+}
+#suv{
+    background-color: hsl(184, 100%, 22%);
+} 
+#luxury{
+    background-color: hsl(179, 100%, 13%)
+}
+.learn-more-btn{
+    width: 50%;
+    margin-left: 25%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.attribution {
+    margin-top: 25px;
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
